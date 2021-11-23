@@ -13,6 +13,13 @@ hr {
   border: none;
 }
 
+ul {
+  color:#818181;
+  text-align: left;
+  margin-left: 35%;
+  margin-top: 1px;
+}
+
 .sidebar {
     height: 100%;
     width: 160px;
@@ -69,5 +76,6 @@ h1 {
 p {
   color: #818181;
 }
+
 
   
