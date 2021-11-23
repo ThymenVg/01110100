@@ -7,6 +7,12 @@ body {
     text-align: center;
 }
 
+hr {
+  height: 5px;
+  background-color: #111;
+  border: none;
+}
+
 .sidebar {
     height: 100%;
     width: 160px;
