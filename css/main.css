@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
 body {
-    font-family: Impact;
+    font-family: 'Josefin', sans-serif;
     background-color: #29292b;
     margin-left: 160px; 
     font-size: 28px; 
@@ -34,6 +36,7 @@ ul {
   }
   
   .sidebar a {
+    font-family: Impact;
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 25px;
@@ -71,11 +74,38 @@ h1 {
   
 #title {
   text-decoration: underline 4px solid black;
+  font-family: Impact;
+}
+
+.impact {
+  font-family: Impact;
 }
 
 p {
   color: #818181;
 }
+
+img{
+  width: 300px;
+}
+
+.greenbg {
+  background-color: rgba(0, 255, 55, 0.411);
+  margin-right: 65%;
+}
+
+.redbg {
+  background-color: rgba(255, 0, 0, 0.411);
+  margin-right: 65%;
+}
+
+.bluebg {
+  background-color: rgba(0, 162, 255, 0.411);
+  margin-right: 65%;
+}
+
+
+
 
 
   
