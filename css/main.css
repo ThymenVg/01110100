@@ -86,9 +86,19 @@ p, span {
   color: #818181;
 }
 
-img{
+.img{
   width: 300px;
   margin-bottom: 15px;
+}
+
+.border{
+  border: 5px solid black
+}
+
+.imgwide{
+  width: 900px;
+  margin-bottom: 15px;
+  margin-left: 11%;
 }
 
 .greenbg {
@@ -136,3 +146,4 @@ img{
 .subtext {
   font-size:  small;
 }
+
