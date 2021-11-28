@@ -13,6 +13,11 @@
       }
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 #text{
     margin-left: 15px;
     position: absolute;
@@ -71,13 +76,29 @@
 
 #gradient{
     position: absolute;
-    left: 80px;
-    width: 100%;
+    width: 87%;
     height: 60%;
     font-size: 36px;
+    left: 173px;
     font-weight: bold;
     font-family: 'josefin' sans-serif;
     background-image: linear-gradient( to bottom right, rgb(236, 131, 236) , rgb(19, 62, 155));
+    border: solid 10px black;
 }
 
- 
+#particles-js {
+    z-index: -1;
+    border: solid 10px black;
+}
+
+#glitch {
+    position: absolute;
+    width: 87%;
+    height: 60%;
+    top: 155%;      
+    font-size: 36px;
+    left: 173px;
+    font-weight: bold;
+    font-family: 'josefin' sans-serif;
+    border: solid 10px black;
+}
