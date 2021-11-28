@@ -91,14 +91,5 @@ html, body {
     border: solid 10px black;
 }
 
-#glitch {
-    position: absolute;
-    width: 87%;
-    height: 60%;
-    top: 155%;      
-    font-size: 36px;
-    left: 173px;
-    font-weight: bold;
-    font-family: 'josefin' sans-serif;
-    border: solid 10px black;
-}
+
+
