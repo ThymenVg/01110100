@@ -15,7 +15,7 @@ function handleButtonClick(){
 }
 
 function guess(word){
-    word = word.toUpperCase();
+    word = word.toUpperCase().split(" ").join("");
     document.querySelector("input").value = "";
     if(word.length == wordLength) {
         counter++;
@@ -34,7 +34,7 @@ function guess(word){
 function checkEnd(){
     let won = true;
     for (var i = 0; i < wordLength; i++) {
-        if(divArray[counter-2][i].classList.contains("grey")) won = false;
+        if(divArray[counter-2][i].classList.contains("grey") || divArray[counter-2][i].classList.contains("yellow")) won = false;
     }
     if(won || counter == 7){
         document.querySelector("input").value = toGuess;
@@ -45,11 +45,11 @@ function checkEnd(){
 
 function start(word){
     counter++;
-    toGuess = document.querySelector("input").value.toUpperCase();
+    toGuess = document.querySelector("input").value.toUpperCase().split(" ").join("");
     document.querySelector("input").value = "";
     document.querySelector("button").innerText = "GUESS";
 
-    wordLength = word.length;
+    wordLength = toGuess.length;
 
     for (var i = 0; i < 6; i++) {
         divArray[i] = [];
