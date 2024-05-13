@@ -88,13 +88,13 @@ input {
 
 @media (max-width: 270px){
     .box {
-        width: 7vh;
-        height: 7vh;
+        width: 5vh;
+        height: 5vh;
     }
 
     input, button {
-        height: 5vh;
-        font-size: 3vh;
+        height: 3vh;
+        font-size: 1vh;
     }
     
     input {
