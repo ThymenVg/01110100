@@ -51,7 +51,7 @@ input {
     display: inline-block;
     width: 10vh;
     height: 10vh;
-    background-color: rgb(129, 131, 132);
+    border: solid 2px rgb(58, 58, 60);
     margin: 1vh;
 }
 
