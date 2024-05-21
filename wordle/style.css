@@ -73,15 +73,14 @@ input {
     padding: 2vh;
 }
 
-.green { background-color: rgb(83, 141, 78); }
-.yellow { background-color: rgb(218, 178, 45); }
-.grey { background-color: rgb(58, 58, 60); }
+.green { background-color: rgb(83, 141, 78); border-color: rgb(83, 141, 78);}
+.yellow { background-color: rgb(218, 178, 45); border-color: rgb(218, 178, 45);}
+.grey { background-color: rgb(58, 58, 60); border-color: rgb(58, 58, 60);}
 
 
 @media (max-width: 600px) {
     .boxLetters {
         display: none;
-
     }
 }
 
