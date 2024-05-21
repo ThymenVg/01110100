@@ -85,6 +85,10 @@ input {
 }
 
 @media (max-width: 500px){
+    body {
+        overflow: hidden;
+    }
+
     .box {
         width: 7vh;
         height: 7vh;
