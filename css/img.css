@@ -13,7 +13,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
+    background-color: black;
     font-family: impact;
     -moz-user-select: none; 
     -webkit-user-select: none; 
